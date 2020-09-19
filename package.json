@@ -1,0 +1,20 @@
+{
+  "name": "gminformatica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmontesr1/gminformatica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmontesr1/gminformatica/issues"
+  },
+  "homepage": "https://github.com/lucasmontesr1/gminformatica#readme"
+}
