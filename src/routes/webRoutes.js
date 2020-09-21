@@ -1,12 +1,12 @@
-const express = require("express");
-const routes = express.Routes();
-const path = require("path");
-const { Router } = require("express");
+const express = require('express');
+const router = express.Router();
+const path = require('path');
 
-Router.get("/", webcontroller.index)
-const webcontroller = require(path.resolve(__dirname,"../controllers/webController"));
+//Requerir el modulo de los controladores
+const webController = require(path.resolve(__dirname, '../controllers/webController'));
 
+// Métodos en nuestros controladores: index - show - edit - delete 
 router.get('/', webController.index);
-router.get('/contact', webController.nosotros);
-module.exports = router;
+router.get('/contacto', webController.contacto);
 
+module.exports = router;

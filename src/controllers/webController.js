@@ -8,8 +8,8 @@ const webController = {
         res.sendFile(path.resolve(__dirname, '../views/web/index.html'));
         
     },
-    contact: function(req,res){
-        res.sendFile(path.resolve(__dirname, '../views/web/contact.html'));
+    contacto: function(req,res){
+        res.sendFile(path.resolve(__dirname, '../views/web/contacto.html'));
         
     }
 
